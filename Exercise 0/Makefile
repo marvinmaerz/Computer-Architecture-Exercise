@@ -35,7 +35,7 @@ $(BIN_PATH)/vecSum: $(BUILD_PATH)/main.o $(BUILD_PATH)/vec_sum.o $(BUILD_PATH)/g
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
 # builds the test file
-$(BIN_PATH)/test: $(BUILD_PATH)/test.o $(BUILD_PATH)/vec_sum.o
+$(BIN_PATH)/test: $(BUILD_PATH)/test.o $(BUILD_PATH)/vec_sum.o $(BUILD_PATH)/get_time.o
 	mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
