@@ -4,7 +4,7 @@
 #include "get_time.h"
 
 static void usage_msg(void) {
-	fprintf(stderr, "Usage: ./vecSum <array size in kiB> <minimal runtime in milliseconds>\n");
+	fprintf(stderr, "Use the right Format: ./vecSum <array size in kiB> <minimal runtime in milliseconds>\n");
 	return;
 }
 
@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
 	//TODO: parse parameter: size of the vector in KiB
 	//TODO: allocate memory and initialize it
 	//TODO: measurement with a runtime of at least 1 s
+	
 
 	for(runs = 1u; actual_runtime < minimal_runtime; runs = runs << 1u) {
 		start = get_time_us();
@@ -36,7 +37,8 @@ int main(int argc, char *argv[]) {
  
 	//TODO: calculate and print updates per second
 
-	fprintf(stdout, "%llu,%lf,%llu,%llu\n", (uint64_t) 0, 0.0, (uint64_t) 0, (uint64_t) 0);
+	//fprintf(stdout, "%llu,%lf,%llu,%llu\n", (uint64_t) 0, 0.0, (uint64_t) 0, (uint64_t) 0);          wrong format for gcc
+	fprintf(stdout, "%lu,%lf,%lu,%lu\n", (uint64_t) 0, 0.0, (uint64_t) 0, (uint64_t) 0);
 
 	return 0;
 }
