@@ -4,7 +4,7 @@
 #include "get_time.h"
 
 static void usage_msg(void) {
-	fprintf(stderr, "Use the right Format: ./vecSum <array size in kiB> <minimal runtime in milliseconds>\n");
+	fprintf(stderr, "Use the right Format: ./vecSum <array size in kiB> <minimal runtime in milliseconds (eg. 1000)>\n");
 	return;
 }
 
