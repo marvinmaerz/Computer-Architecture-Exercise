@@ -9,8 +9,8 @@ INC_PATH  := $(SRC_PATH)/include
 INC_DIRS  := $(sort $(shell find $(INC_PATH) -type d))
 INC_FLAGS := $(addprefix -iquote ,$(INC_DIRS))
 
-CC      := gcc # icc (Intel Compiler, used on the Supercluster)
-CFLAGS  := -Wall -pedantic -Werror -std=c99 -O3 #-xHost		(-xHost: Flag for the Intel Compiler; -03: Flag for Optimization (turn off for debugging))
+CC      := icc 							#(Intel Compiler, used on the Supercluster)
+CFLAGS  := -Wall -pedantic -Werror -std=c99 -O3 -xHost		#(-xHost: Flag for the Intel Compiler; -03: Flag for Optimization (turn off for debugging))
 
 LDFLAGS :=
 

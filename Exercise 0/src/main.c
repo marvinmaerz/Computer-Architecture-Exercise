@@ -39,8 +39,9 @@ int main(int argc, char *argv[]) {
 		printf("Please enter a valid array size > 0KiB\n");
 		exit(EXIT_FAILURE);
 	}
+	
 	arrayLength = sizeInBytes / sizeof(float);
-
+	
 	//allocate memory and initialize it (allocating eg. 10KiB) + error handling
 	vectorArray = (float*) malloc(sizeof(float) * arrayLength);			
 	if(vectorArray == NULL){
@@ -62,26 +63,36 @@ int main(int argc, char *argv[]) {
 		printf("The minimal runtime must be at least 1s (1000ms)\n");
 		exit(EXIT_FAILURE);
 	}
+	
+	//for debugging purposes:
+	//printf("array-size: %luB, array-length: %u, min-runtime: %.1fs\n", sizeInBytes, arrayLength, (float)minimal_runtime/1000);
 
-	printf("array-size: %luB, array-length: %u, min-runtime: %.1fs\n", sizeInBytes, arrayLength, (float)minimal_runtime/1000);
+	//minimal_runtime(ms) converted to us:
+	minimal_runtime *= 1000; 		
+	uint64_t elementsProcessed = 0;
+	float elementsPerSecond = 0.0f;
 
-	minimal_runtime *= 1000; 		//minimal_runtime converted to us
 	for(runs = 1u; actual_runtime < minimal_runtime; runs = runs << 1u) {
 		start = get_time_us();
-		//runs is a power of 2, vec_sum() is called incrementally 'runs' times -> execution time for inner loop increases until it reaches min_runtime
+		//runs is a power of 2, vec_sum() is called incrementally 'runs' times -> execution time for inner loop increases until it reaches minimal_runtime
 		for(uint64_t i = 0u; i < runs; i++) {
 			vec_sum(vectorArray, arrayLength);
 		}
 		stop  = get_time_us();
 		actual_runtime = (stop - start);	
-	
+		//prevent division by zero at low size
+		if(actual_runtime == 0) actual_runtime = 1;
+
 		//calculate and print updates per second
-		uint64_t elementsProcessed = runs * arrayLength;
-		float elementsPerSecond = (elementsProcessed / actual_runtime) * 1000000;	
-		fprintf(stdout, "execution-time: %luus (%.1fs), elements/s: %lu, runs: %lu\n", actual_runtime, (float)actual_runtime/1000000.0, (uint64_t)elementsPerSecond, runs);
+		elementsProcessed = runs * arrayLength;
+		elementsPerSecond = (elementsProcessed / actual_runtime) * 1000000;
+			
+		//for debugging purposes:
+		//fprintf(stdout, "execution-time: %luus (%.1fs), elements/s: %lu, runs: %lu\n", actual_runtime, (float)actual_runtime/1000000.0, (uint64_t)elementsPerSecond, runs);
 	}
 
-	//fprintf(stdout, "%lu,%lf,%lu,%lu\n", (uint64_t) 0, 0.0, (uint64_t) 0, (uint64_t) 0);
+	//printing "ArraySize(converted to KiB),AdditionsPerSecond,ActualRuntime(converted to ms),MinimalRuntime(converted to ms)"
+	fprintf(stdout, "%lu,%lf,%lu,%lu\n", (uint64_t) sizeInBytes/1024, elementsPerSecond, (uint64_t) actual_runtime/1000, (uint64_t) minimal_runtime/1000);
 
 	free(vectorArray);
 	return 0;

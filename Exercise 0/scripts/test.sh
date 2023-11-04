@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "ArraySize,AdditionsPerSecond,ActualRuntime,MinimalRuntime" > result.csv
+
+#good exponential function: f(x) = 0.67713 * 2**(0.5489*x)
+values=(1 1 2 3 4 6 9 14 20 30 44 65 95 139 203 298 436 638 933 1365 1998 2923 4276 6256 9152 13390 19589 28659 41927 61383 89736 131072)    
+for x in ${values[@]}
+do
+    ../bin/vecSum $x 1000 >> result.csv
+done
+
+touch ready
