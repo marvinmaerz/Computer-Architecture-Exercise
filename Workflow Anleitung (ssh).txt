@@ -1,0 +1,24 @@
+1) in VSCode mit ssh Manager mit dem Target 'cshpc' verbinden -> dialog server für meggie
+-> dort auch alle files => man kann schön mit VSCode programmieren, die Änderungen sind auch instantly
+auf der meggie head-node
+
+2) im Terminal von cshpc mit ssh meggie.rrze.fau.de in die head-node einloggen, wo auch module load intel
+funktioniert und man alles ausführen kann
+
+3) links auf cshpc programmieren und rechts in meggie bash ausführen mit intel compiler
+
+(4) oder über cip2a7 bash mit 'ssh meggie' in die meggie head-node einloggen und dort mit vim programmieren
+
+
+
+Extensions:
+- ppm viewer in VSCode für die draw Funktionen
+
+
+SSH
+- config Datei kopieren -> alias und proxy jump festlegen
+- public keys generieren (ssh-keygen ...) und mit scp auf cshpc kopieren usw. (siehe ex01 folien)
+
+
+Git:
+- git ist auf allen Systemen vorhanden -> git pull, add, commit, push, ...

@@ -1,0 +1,32 @@
+Host cip2a7
+  HostName cip2a7.cip.cs.fau.de
+  User cy93hypa
+  IdentityFile C:\Users\Marvin\.ssh\cip2a7
+  IdentitiesOnly yes
+  PreferredAuthentications publickey
+
+Host cip2a1.cip.cs.fau.de
+  HostName cip2a1.cip.cs.fau.de
+  User cy93hypa
+
+Host cip2a0.cip.cs.fau.de
+  HostName cip2a0.cip.cs.fau.de
+  User cy93hypa
+
+
+
+Host cshpc
+	HostName cshpc.rrze.uni-erlangen.de
+	User hpcv689h
+	ProxyJump cip2a7
+	IdentityFile C:\Users\Marvin\.ssh\meggie
+	IdentitiesOnly yes
+	PreferredAuthentications publickey
+
+Host meggie
+	HostName meggie.rrze.fau.de
+	User hpcv689h
+	ProxyJump cshpc
+	IdentityFile C:\Users\Marvin\.ssh\meggie
+	IdentitiesOnly yes
+	PreferredAuthentications publickey
