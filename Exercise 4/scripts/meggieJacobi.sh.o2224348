@@ -1,0 +1,237 @@
+### Starting TaskPrologue of job 2224348 on m0101 at Tue Dec  5 10:57:05 CET 2023
+#   SLURM_JOB_NODELIST=m0101
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=20
+#   SLURM_EXPORT_ENV=
+Running on cores 0-19 with governor ondemand
+### Finished TaskPrologue
++ set -v
+
+# Load modules intel (->icc) and likwid (->perfctr)
+module load intel
++ module load intel
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw load intel
+++ /usr/bin/tclsh /apps/modules/modulecmd.tcl bash load intel
++ eval ''
++ _mlstatus=0
++ return 0
+module load likwid/5.3.0
++ module load likwid/5.3.0
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw load likwid/5.3.0
+++ /usr/bin/tclsh /apps/modules/modulecmd.tcl bash load likwid/5.3.0
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
++ eval 'LD_LIBRARY_PATH=/apps/likwid/5.3.0/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/x64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/lib; export LD_LIBRARY_PATH;
+LIKWID_LIBDIR=/apps/likwid/5.3.0/lib; export LIKWID_LIBDIR;
+LIKWID_DEFINES=-DLIKWID_PERFMON; export LIKWID_DEFINES;
+MANPATH=/apps/likwid/5.3.0/man:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/documentation/en/man/common::; export MANPATH;
+LOADEDMODULES=intel/2022.1.0:likwid/5.3.0; export LOADEDMODULES;
+_LMFILES_=/apps/modules/data/compiler/intel/2022.1.0:/apps/modules/data/tools/likwid/5.3.0; export _LMFILES_;
+LIKWID_INCDIR=/apps/likwid/5.3.0/include; export LIKWID_INCDIR;
+LIKWID_INC=-I/apps/likwid/5.3.0/include; export LIKWID_INC;
+__MODULES_LMALTNAME=intel/2022.1.0\&as\|intel/default\&as\|intel/latest:likwid/5.3.0\&as\|likwid/default\&as\|likwid/latest; export __MODULES_LMALTNAME;
+__MODULES_LMCONFLICT=intel/2022.1.0\&intel-oneapi-compilers\&intel-parallel-studio\&intel:likwid/5.3.0\&likwid; export __MODULES_LMCONFLICT;
+__MODULES_SHARE_MANPATH=:1; export __MODULES_SHARE_MANPATH;
+LIKWID_LIB=-L/apps/likwid/5.3.0/lib; export LIKWID_LIB;
+LIKWID_FORCE=1; export LIKWID_FORCE;
+PATH=/apps/likwid/5.3.0/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin/intel64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin; export PATH;
+test 0;'
+LD_LIBRARY_PATH=/apps/likwid/5.3.0/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/x64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/lib; export LD_LIBRARY_PATH;
+++ LD_LIBRARY_PATH=/apps/likwid/5.3.0/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/x64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/host/linux64/lib:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/compiler/lib/intel64_lin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/lib
+++ export LD_LIBRARY_PATH
+LIKWID_LIBDIR=/apps/likwid/5.3.0/lib; export LIKWID_LIBDIR;
+++ LIKWID_LIBDIR=/apps/likwid/5.3.0/lib
+++ export LIKWID_LIBDIR
+LIKWID_DEFINES=-DLIKWID_PERFMON; export LIKWID_DEFINES;
+++ LIKWID_DEFINES=-DLIKWID_PERFMON
+++ export LIKWID_DEFINES
+MANPATH=/apps/likwid/5.3.0/man:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/documentation/en/man/common::; export MANPATH;
+++ MANPATH=/apps/likwid/5.3.0/man:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/documentation/en/man/common::
+++ export MANPATH
+LOADEDMODULES=intel/2022.1.0:likwid/5.3.0; export LOADEDMODULES;
+++ LOADEDMODULES=intel/2022.1.0:likwid/5.3.0
+++ export LOADEDMODULES
+_LMFILES_=/apps/modules/data/compiler/intel/2022.1.0:/apps/modules/data/tools/likwid/5.3.0; export _LMFILES_;
+++ _LMFILES_=/apps/modules/data/compiler/intel/2022.1.0:/apps/modules/data/tools/likwid/5.3.0
+++ export _LMFILES_
+LIKWID_INCDIR=/apps/likwid/5.3.0/include; export LIKWID_INCDIR;
+++ LIKWID_INCDIR=/apps/likwid/5.3.0/include
+++ export LIKWID_INCDIR
+LIKWID_INC=-I/apps/likwid/5.3.0/include; export LIKWID_INC;
+++ LIKWID_INC=-I/apps/likwid/5.3.0/include
+++ export LIKWID_INC
+__MODULES_LMALTNAME=intel/2022.1.0\&as\|intel/default\&as\|intel/latest:likwid/5.3.0\&as\|likwid/default\&as\|likwid/latest; export __MODULES_LMALTNAME;
+++ __MODULES_LMALTNAME='intel/2022.1.0&as|intel/default&as|intel/latest:likwid/5.3.0&as|likwid/default&as|likwid/latest'
+++ export __MODULES_LMALTNAME
+__MODULES_LMCONFLICT=intel/2022.1.0\&intel-oneapi-compilers\&intel-parallel-studio\&intel:likwid/5.3.0\&likwid; export __MODULES_LMCONFLICT;
+++ __MODULES_LMCONFLICT='intel/2022.1.0&intel-oneapi-compilers&intel-parallel-studio&intel:likwid/5.3.0&likwid'
+++ export __MODULES_LMCONFLICT
+__MODULES_SHARE_MANPATH=:1; export __MODULES_SHARE_MANPATH;
+++ __MODULES_SHARE_MANPATH=:1
+++ export __MODULES_SHARE_MANPATH
+LIKWID_LIB=-L/apps/likwid/5.3.0/lib; export LIKWID_LIB;
+++ LIKWID_LIB=-L/apps/likwid/5.3.0/lib
+++ export LIKWID_LIB
+LIKWID_FORCE=1; export LIKWID_FORCE;
+++ LIKWID_FORCE=1
+++ export LIKWID_FORCE
+PATH=/apps/likwid/5.3.0/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin/intel64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin; export PATH;
+++ PATH=/apps/likwid/5.3.0/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/lib/oclfpga/bin:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin/intel64:/apps/SPACK/0.18.1/opt/linux-almalinux8-broadwell/gcc-8.5.0/intel-oneapi-compilers-2022.1.0-sq77wvvrwgq37d733qmt3nbmk2rlgeil/compiler/2022.1.0/linux/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+test 0;
+++ test 0
++ _mlstatus=0
++ return 0
+
+# allocate a compute node -> takes SBATCH arguments?
+salloc
++ salloc
+salloc: Granted job allocation 2224349
+salloc: Waiting for resource configuration
+salloc: Nodes m0103 are ready for job
+srun: error: ioctl(TIOCGWINSZ): Inappropriate ioctl for device
+srun: error: Not using a pseudo-terminal, disregarding --pty option
+### Starting TaskPrologue of job 2224349 on m0103 at Tue Dec  5 10:57:08 CET 2023
+#   SLURM_JOB_NODELIST=m0103
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=20
+#   SLURM_JOB_CPUS_PER_NODE=20
+#   SLURM_EXPORT_ENV=
+Running on cores 0-19 with governor ondemand
+### Finished TaskPrologue
+salloc: Relinquishing job allocation 2224349
+salloc: Job allocation 2224349 has been revoked.
+
+# This line creates / overrides a result csv file
+# echo "ArraySize,MegaUpdatesPerSecond,ActualRuntime,MinimalRuntime,EdgeSize" > resultJacobi.csv
+echo "yeet" > stats.csv
++ echo yeet
+
+# run benchmark 1
+# execute measurement with for loop
+# 32 measurement points, exponentially distributed: 1 KiB - 128 MiB, each with 1000 ms as minimal runtime
+# results should be appended to the result.csv (see >> operator)
+
+#exponential function used for sizes (32 entries): f(x) = 0.67713 * 2**(0.5489*x)
+sizes=(1 1 2 3 4 6 9 14 20 30 44 65 95 139 203 298 436 638 933 1365 1998 2923 4276 6256 9152 13390 19589 28659 41927 61383 89736 131072)
++ sizes=(1 1 2 3 4 6 9 14 20 30 44 65 95 139 203 298 436 638 933 1365 1998 2923 4276 6256 9152 13390 19589 28659 41927 61383 89736 131072)
+
+for size in ${sizes[@]}
+do
+    #srun ../bin/jacobi $size 1000 >> resultJacobi.csv
+    srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi $size 1000 >> stats.csv
+done
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 1 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 1 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 2 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 3 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 4 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 6 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 9 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 14 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 20 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 30 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 44 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 65 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 95 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 139 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 203 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 298 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 436 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 638 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 933 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 1365 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 1998 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 2923 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 4276 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 6256 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 9152 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 13390 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 19589 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 28659 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 41927 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 61383 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 89736 1000
+ERROR: Can only reset stopped regions
++ for size in ${sizes[@]}
++ srun likwid-perfctr -O --stats -C 0 -c 0 -f -m -g MEM_UOPS_RETIRED_LOADS_ALL:PMC1,MEM_LOAD_UOPS_RETIRED_L1_HIT:PMC2 ../bin/./jacobi 131072 1000
+ERROR: Can only reset stopped regions
+
+#Note: copy the result.csv to a local machine!
+touch ready
++ touch ready
+

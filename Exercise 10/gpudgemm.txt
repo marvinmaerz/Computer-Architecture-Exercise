@@ -1,0 +1,3 @@
+before kernel call!
+Total Runtime(us): 5649298
+FLOP/s(total runtime): 230762973806.6

@@ -1,0 +1,4 @@
+MinimalRuntime[ms],ArraySize[GiB],MUP/s[kernel runtime],MUP/s[including CopyTime],ActualRuntime[ms],CopyTime[ms]
+100,3,12525958144.0,6658399744.0,134,118
+1000,3,14028033024.0,6953594368.0,1926,1959
+10000,3,13412955136.0,6707598848.0,16116,16111

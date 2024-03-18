@@ -1,0 +1,4 @@
+,Cache Size, Jacobi Grid Size, Vector Length
+L1, 32, 3969, 8000
+L2, 256, 31684, 64000
+L3, 25000, 3122289, 6250000

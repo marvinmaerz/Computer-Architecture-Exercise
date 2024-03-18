@@ -1,0 +1,28 @@
+### Starting TaskPrologue of job 2224347 on m0211 at Tue Dec  5 10:57:01 CET 2023
+#   SLURM_JOB_NODELIST=m0211
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=20
+#   SLURM_EXPORT_ENV=
+Running on cores 0-19 with governor ondemand
+### Finished TaskPrologue
+rm -rf ./build ./bin	
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/mainVec.c -o build/mainVec.o
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/vec_sum.c -o build/vec_sum.o
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/get_time.c -o build/get_time.o
+mkdir -p bin/
+icc 							 -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 build/mainVec.o build/vec_sum.o build/get_time.o -o bin/vecSum -pthread -L/apps/likwid/5.3.0/lib/ -llikwid	
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/mainJacobi.c -o build/mainJacobi.o
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/jacobi.c -o build/jacobi.o
+mkdir -p build/
+icc 							 -iquote ./src/include -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 -MMD -MP -c src/draw.c -o build/draw.o
+mkdir -p bin/
+icc 							 -I/apps/likwid/5.3.0/include -DLIKWID_PERFMON -pg -Wall -pedantic -Werror -std=c99 -DNUM=4 	 build/mainJacobi.o build/jacobi.o build/get_time.o build/draw.o -o bin/jacobi -pthread -L/apps/likwid/5.3.0/lib/ -llikwid	
+Submitted batch job 2224348

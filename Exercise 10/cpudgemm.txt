@@ -1,0 +1,49 @@
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(44870x44870) and matrix B(44870x44870)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       44871       44872       44873       44874       44875       44876
+       89741       89742       89743       89744       89745       89746
+      134611      134612      134613      134614      134615      134616
+      179481      179482      179483      179484      179485      179486
+      224351      224352      224353      224354      224355      224356
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -44871      -44872      -44873      -44874      -44875      -44876
+      -89741      -89742      -89743      -89744      -89745      -89746
+     -134611     -134612     -134613     -134614     -134615     -134616
+     -179481     -179482     -179483     -179484     -179485     -179486
+     -224351     -224352     -224353     -224354     -224355     -224356
+
+ Top left corner of matrix C: 
+ -1.3511E+18 -1.3511E+18 -1.3511E+18 -1.3511E+18 -1.3511E+18 -1.3511E+18
+ -3.3778E+18 -3.3778E+18 -3.3778E+18 -3.3778E+18 -3.3778E+18 -3.3778E+18
+ -5.4045E+18 -5.4045E+18 -5.4045E+18 -5.4045E+18 -5.4045E+18 -5.4045E+18
+ -7.4312E+18 -7.4312E+18 -7.4312E+18 -7.4312E+18 -7.4312E+18 -7.4312E+18
+ -9.4579E+18 -9.4579E+18 -9.4579E+18 -9.4579E+18 -9.4579E+18 -9.4579E+18
+ -1.1485E+19 -1.1485E+19 -1.1485E+19 -1.1485E+19 -1.1485E+19 -1.1485E+19
+
+ Deallocating memory 
+
+ Example completed. 
+
+Total Runtime: 309
+ FLOP/s(total time): 584708927527.508057 = 5,85 * 10^11 FLOP/s
+ FLOP/s(calculation time): 640691697184.397217 = 6,4 * 10^11 FLOP/s

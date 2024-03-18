@@ -1,0 +1,961 @@
+-----------------------------------------------------------------------
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+1,298.0,1012,1000,8
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194912118 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.012240,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.012240e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1862278000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,1862271000,,,
+INSTR_RETIRED_ANY,FIXC0,7633640000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2212564000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2212568000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.0122,1.0122,1.0122,1.0122
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1862278000,1862278000,1862278000,1862278000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,1862271000,1862271000,1862271000,1862271000
+INSTR_RETIRED_ANY STAT,FIXC0,7633640000,7633640000,7633640000,7633640000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2212564000,2212564000,2212564000,2212564000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2212568000,2212568000,2212568000,2212568000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+1,295.0,1021,1000,8
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194913113 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.021514,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.021514e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1862277000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,1862271000,,,
+INSTR_RETIRED_ANY,FIXC0,7633641000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2232783000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2232783000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.0215,1.0215,1.0215,1.0215
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1862277000,1862277000,1862277000,1862277000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,1862271000,1862271000,1862271000,1862271000
+INSTR_RETIRED_ANY STAT,FIXC0,7633641000,7633641000,7633641000,7633641000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2232783000,2232783000,2232783000,2232783000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2232783000,2232783000,2232783000,2232783000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+2,348.0,1946,1000,11
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.19491352 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.946678,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.946678e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,4328534000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,4328516000,,,
+INSTR_RETIRED_ANY,FIXC0,13925100000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,4255829000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,4255835000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.9467,1.9467,1.9467,1.9467
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,4328534000,4328534000,4328534000,4328534000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,4328516000,4328516000,4328516000,4328516000
+INSTR_RETIRED_ANY STAT,FIXC0,13925100000,13925100000,13925100000,13925100000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,4255829000,4255829000,4255829000,4255829000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,4255835000,4255835000,4255835000,4255835000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+3,352.0,1438,1000,13
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194912956 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.437825,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.437825e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3263177000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3263166000,,,
+INSTR_RETIRED_ANY,FIXC0,10418660000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3143229000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3143230000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.4378,1.4378,1.4378,1.4378
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3263177000,3263177000,3263177000,3263177000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3263166000,3263166000,3263166000,3263166000
+INSTR_RETIRED_ANY STAT,FIXC0,10418660000,10418660000,10418660000,10418660000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3143229000,3143229000,3143229000,3143229000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3143230000,3143230000,3143230000,3143230000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+4,382.0,1074,1000,16
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194796728 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.074506,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.074506e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,2323652000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,2323636000,,,
+INSTR_RETIRED_ANY,FIXC0,7553949000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2348929000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2348936000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.0745,1.0745,1.0745,1.0745
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,2323652000,2323652000,2323652000,2323652000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,2323636000,2323636000,2323636000,2323636000
+INSTR_RETIRED_ANY STAT,FIXC0,7553949000,7553949000,7553949000,7553949000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2348929000,2348929000,2348929000,2348929000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2348936000,2348936000,2348936000,2348936000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+6,416.0,1455,1000,19
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194883696 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.455054,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.455054e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3235915000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3235896000,,,
+INSTR_RETIRED_ANY,FIXC0,9827263000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3180741000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3180748000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.4551,1.4551,1.4551,1.4551
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3235915000,3235915000,3235915000,3235915000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3235896000,3235896000,3235896000,3235896000
+INSTR_RETIRED_ANY STAT,FIXC0,9827263000,9827263000,9827263000,9827263000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3180741000,3180741000,3180741000,3180741000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3180748000,3180748000,3180748000,3180748000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+9,388.0,1305,1000,24
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194911254 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.305627,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.305627e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,2615157000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,2615130000,,,
+INSTR_RETIRED_ANY,FIXC0,8118084000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2854092000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2854101000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.3056,1.3056,1.3056,1.3056
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,2615157000,2615157000,2615157000,2615157000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,2615130000,2615130000,2615130000,2615130000
+INSTR_RETIRED_ANY STAT,FIXC0,8118084000,8118084000,8118084000,8118084000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2854092000,2854092000,2854092000,2854092000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2854101000,2854101000,2854101000,2854101000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+14,434.0,1758,1000,29
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194912762 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.758686,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.758686e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3938463000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3938389000,,,
+INSTR_RETIRED_ANY,FIXC0,11744060000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3844449000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3844461000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.7587,1.7587,1.7587,1.7587
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3938463000,3938463000,3938463000,3938463000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3938389000,3938389000,3938389000,3938389000
+INSTR_RETIRED_ANY STAT,FIXC0,11744060000,11744060000,11744060000,11744060000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3844449000,3844449000,3844449000,3844449000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3844461000,3844461000,3844461000,3844461000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+20,453.0,1259,1000,35
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194914118 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.259269,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.259269e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,2766676000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,2764045000,,,
+INSTR_RETIRED_ANY,FIXC0,8096063000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2752643000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2752646000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.2593,1.2593,1.2593,1.2593
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,2766676000,2766676000,2766676000,2766676000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,2764045000,2764045000,2764045000,2764045000
+INSTR_RETIRED_ANY STAT,FIXC0,8096063000,8096063000,8096063000,8096063000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2752643000,2752643000,2752643000,2752643000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2752646000,2752646000,2752646000,2752646000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+30,462.0,1905,1000,43
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194910616 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.905294,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.905294e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,4185931000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,4177472000,,,
+INSTR_RETIRED_ANY,FIXC0,12148810000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,4164415000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,4164409000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.9053,1.9053,1.9053,1.9053
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,4185931000,4185931000,4185931000,4185931000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,4177472000,4177472000,4177472000,4177472000
+INSTR_RETIRED_ANY STAT,FIXC0,12148810000,12148810000,12148810000,12148810000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,4164415000,4164415000,4164415000,4164415000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,4164409000,4164409000,4164409000,4164409000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+44,457.0,1491,1000,53
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194915263 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.491556,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.491556e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3256628000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3197006000,,,
+INSTR_RETIRED_ANY,FIXC0,9446106000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3259900000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3259891000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.4916,1.4916,1.4916,1.4916
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3256628000,3256628000,3256628000,3256628000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3197006000,3197006000,3197006000,3197006000
+INSTR_RETIRED_ANY STAT,FIXC0,9446106000,9446106000,9446106000,9446106000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3259900000,3259900000,3259900000,3259900000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3259891000,3259891000,3259891000,3259891000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+65,388.0,1297,1000,64
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194779814 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.297620,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.297620e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,2336239000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,2029111000,,,
+INSTR_RETIRED_ANY,FIXC0,6810771000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2836068000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2836064000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.2976,1.2976,1.2976,1.2976
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,2336239000,2336239000,2336239000,2336239000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,2029111000,2029111000,2029111000,2029111000
+INSTR_RETIRED_ANY STAT,FIXC0,6810771000,6810771000,6810771000,6810771000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2836068000,2836068000,2836068000,2836068000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2836064000,2836064000,2836064000,2836064000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+95,454.0,1622,1000,77
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194877754 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.621900,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.621900e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3424925000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3247822000,,,
+INSTR_RETIRED_ANY,FIXC0,9827788000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3544555000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3544561000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.6219,1.6219,1.6219,1.6219
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3424925000,3424925000,3424925000,3424925000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3247822000,3247822000,3247822000,3247822000
+INSTR_RETIRED_ANY STAT,FIXC0,9827788000,9827788000,9827788000,9827788000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3544555000,3544555000,3544555000,3544555000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3544561000,3544561000,3544561000,3544561000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+139,470.0,1178,1000,94
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194915011 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.177974,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.177974e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,2528258000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,2452738000,,,
+INSTR_RETIRED_ANY,FIXC0,7231643000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2573949000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2573946000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.1780,1.1780,1.1780,1.1780
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,2528258000,2528258000,2528258000,2528258000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,2452738000,2452738000,2452738000,2452738000
+INSTR_RETIRED_ANY STAT,FIXC0,7231643000,7231643000,7231643000,7231643000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2573949000,2573949000,2573949000,2573949000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2573946000,2573946000,2573946000,2573946000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+203,465.0,1734,1000,113
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194854401 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.734384,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.734384e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,3668327000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,3552181000,,,
+INSTR_RETIRED_ANY,FIXC0,10556550000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3789630000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3789619000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.7344,1.7344,1.7344,1.7344
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,3668327000,3668327000,3668327000,3668327000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,3552181000,3552181000,3552181000,3552181000
+INSTR_RETIRED_ANY STAT,FIXC0,10556550000,10556550000,10556550000,10556550000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3789630000,3789630000,3789630000,3789630000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3789619000,3789619000,3789619000,3789619000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+298,228.0,1326,1000,138
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194817781 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.326601,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.326601e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1353035000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,1303679000,,,
+INSTR_RETIRED_ANY,FIXC0,3794575000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2897128000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2897133000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.3266,1.3266,1.3266,1.3266
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1353035000,1353035000,1353035000,1353035000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,1303679000,1303679000,1303679000,1303679000
+INSTR_RETIRED_ANY STAT,FIXC0,3794575000,3794575000,3794575000,3794575000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2897128000,2897128000,2897128000,2897128000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2897133000,2897133000,2897133000,2897133000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+436,195.0,1139,1000,167
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194803012 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.139084,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.139084e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1001851000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,938583500,,,
+INSTR_RETIRED_ANY,FIXC0,2847711000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2487463000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2487460000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.1391,1.1391,1.1391,1.1391
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1001851000,1001851000,1001851000,1001851000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,938583500,938583500,938583500,938583500
+INSTR_RETIRED_ANY STAT,FIXC0,2847711000,2847711000,2847711000,2847711000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2487463000,2487463000,2487463000,2487463000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2487460000,2487460000,2487460000,2487460000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+638,180.0,1813,1000,202
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194849562 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.813674,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.813674e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1453522000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,1212770000,,,
+INSTR_RETIRED_ANY,FIXC0,4074137000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3960832000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3960832000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.8137,1.8137,1.8137,1.8137
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1453522000,1453522000,1453522000,1453522000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,1212770000,1212770000,1212770000,1212770000
+INSTR_RETIRED_ANY STAT,FIXC0,4074137000,4074137000,4074137000,4074137000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3960832000,3960832000,3960832000,3960832000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3960832000,3960832000,3960832000,3960832000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+933,192.0,1245,1000,244
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194893092 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.245279,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.245279e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1066699000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,409982600,,,
+INSTR_RETIRED_ANY,FIXC0,3003973000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2719463000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2719463000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.2453,1.2453,1.2453,1.2453
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1066699000,1066699000,1066699000,1066699000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,409982600,409982600,409982600,409982600
+INSTR_RETIRED_ANY STAT,FIXC0,3003973000,3003973000,3003973000,3003973000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2719463000,2719463000,2719463000,2719463000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2719463000,2719463000,2719463000,2719463000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+1365,188.0,1870,1000,295
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194909954 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.869944,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.869944e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1561505000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,554156200,,,
+INSTR_RETIRED_ANY,FIXC0,4409813000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,4083970000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,4083967000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.8699,1.8699,1.8699,1.8699
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1561505000,1561505000,1561505000,1561505000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,554156200,554156200,554156200,554156200
+INSTR_RETIRED_ANY STAT,FIXC0,4409813000,4409813000,4409813000,4409813000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,4083970000,4083970000,4083970000,4083970000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,4083967000,4083967000,4083967000,4083967000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+1998,188.0,1367,1000,357
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194913738 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.367595,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.367595e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1143707000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,391052500,,,
+INSTR_RETIRED_ANY,FIXC0,3219608000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2986931000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2986929000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.3676,1.3676,1.3676,1.3676
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1143707000,1143707000,1143707000,1143707000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,391052500,391052500,391052500,391052500
+INSTR_RETIRED_ANY STAT,FIXC0,3219608000,3219608000,3219608000,3219608000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2986931000,2986931000,2986931000,2986931000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2986929000,2986929000,2986929000,2986929000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+2923,187.0,1008,1000,432
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194743888 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.008451,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.008451e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,835326700,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,262998100,,,
+INSTR_RETIRED_ANY,FIXC0,2353210000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2202375000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2202375000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.0085,1.0085,1.0085,1.0085
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,835326700,835326700,835326700,835326700
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,262998100,262998100,262998100,262998100
+INSTR_RETIRED_ANY STAT,FIXC0,2353210000,2353210000,2353210000,2353210000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2202375000,2202375000,2202375000,2202375000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2202375000,2202375000,2202375000,2202375000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+4276,181.0,1529,1000,523
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194911447 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.528900,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.528900e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1223902000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,397471300,,,
+INSTR_RETIRED_ANY,FIXC0,3436975000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3339004000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3339004000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.5289,1.5289,1.5289,1.5289
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1223902000,1223902000,1223902000,1223902000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,397471300,397471300,397471300,397471300
+INSTR_RETIRED_ANY STAT,FIXC0,3436975000,3436975000,3436975000,3436975000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3339004000,3339004000,3339004000,3339004000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3339004000,3339004000,3339004000,3339004000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+6256,184.0,1101,1000,632
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194913069 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.100800,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.100800e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,894161300,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,337631300,,,
+INSTR_RETIRED_ANY,FIXC0,2514107000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2404484000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2404482000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.1008,1.1008,1.1008,1.1008
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,894161300,894161300,894161300,894161300
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,337631300,337631300,337631300,337631300
+INSTR_RETIRED_ANY STAT,FIXC0,2514107000,2514107000,2514107000,2514107000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2404484000,2404484000,2404484000,2404484000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2404482000,2404482000,2404482000,2404482000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+9152,212.0,1404,1000,765
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194911034 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.404514,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.404514e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1311850000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,381435900,,,
+INSTR_RETIRED_ANY,FIXC0,3682398000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3067376000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3067373000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.4045,1.4045,1.4045,1.4045
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1311850000,1311850000,1311850000,1311850000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,381435900,381435900,381435900,381435900
+INSTR_RETIRED_ANY STAT,FIXC0,3682398000,3682398000,3682398000,3682398000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3067376000,3067376000,3067376000,3067376000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3067373000,3067373000,3067373000,3067373000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+13390,201.0,1080,1000,925
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194865576 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.080272,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.080272e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,958873900,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,236636000,,,
+INSTR_RETIRED_ANY,FIXC0,2690416000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2359474000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2359472000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.0803,1.0803,1.0803,1.0803
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,958873900,958873900,958873900,958873900
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,236636000,236636000,236636000,236636000
+INSTR_RETIRED_ANY STAT,FIXC0,2690416000,2690416000,2690416000,2690416000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2359474000,2359474000,2359474000,2359474000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2359472000,2359472000,2359472000,2359472000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+19589,216.0,1474,1000,1119
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194907907 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.474281,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.474281e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1402901000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,368681100,,,
+INSTR_RETIRED_ANY,FIXC0,3937029000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3217517000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3217519000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.4743,1.4743,1.4743,1.4743
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1402901000,1402901000,1402901000,1402901000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,368681100,368681100,368681100,368681100
+INSTR_RETIRED_ANY STAT,FIXC0,3937029000,3937029000,3937029000,3937029000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3217517000,3217517000,3217517000,3217517000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3217519000,3217519000,3217519000,3217519000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+28659,143.0,1635,1000,1354
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194914645 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.635238,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.635238e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,1025721000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,268052300,,,
+INSTR_RETIRED_ANY,FIXC0,2872409000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3558831000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3558829000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.6352,1.6352,1.6352,1.6352
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,1025721000,1025721000,1025721000,1025721000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,268052300,268052300,268052300,268052300
+INSTR_RETIRED_ANY STAT,FIXC0,2872409000,2872409000,2872409000,2872409000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3558831000,3558831000,3558831000,3558831000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3558829000,3558829000,3558829000,3558829000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+41927,107.0,1590,1000,1638
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194866302 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.590638,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.590638e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,751162000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,190703600,,,
+INSTR_RETIRED_ANY,FIXC0,2105824000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3460369000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3460367000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.5906,1.5906,1.5906,1.5906
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,751162000,751162000,751162000,751162000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,190703600,190703600,190703600,190703600
+INSTR_RETIRED_ANY STAT,FIXC0,2105824000,2105824000,2105824000,2105824000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3460369000,3460369000,3460369000,3460369000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3460367000,3460367000,3460367000,3460367000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+61383,108.0,1159,1000,1982
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.1948947 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.159551,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.159551e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,549912500,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,100907000,,,
+INSTR_RETIRED_ANY,FIXC0,1541307000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2524474000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2524472000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.1596,1.1596,1.1596,1.1596
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,549912500,549912500,549912500,549912500
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,100907000,100907000,100907000,100907000
+INSTR_RETIRED_ANY STAT,FIXC0,1541307000,1541307000,1541307000,1541307000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2524474000,2524474000,2524474000,2524474000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2524472000,2524472000,2524472000,2524472000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+89736,114.0,1597,1000,2396
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194911768 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.597010,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.597010e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,803709200,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,120423500,,,
+INSTR_RETIRED_ANY,FIXC0,2251676000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,3471601000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,3471598000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.5970,1.5970,1.5970,1.5970
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,803709200,803709200,803709200,803709200
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,120423500,120423500,120423500,120423500
+INSTR_RETIRED_ANY STAT,FIXC0,2251676000,2251676000,2251676000,2251676000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,3471601000,3471601000,3471601000,3471601000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,3471598000,3471598000,3471598000,3471598000
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+CPU type:	Intel Xeon Broadwell EN/EP/EX processor
+CPU clock:	2.19 GHz
+--------------------------------------------------------------------------------
+131072,121.0,1102,1000,2896
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,
+CPU name:,Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz,,,,
+CPU type:,Intel Xeon Broadwell EN/EP/EX processor,,,,
+CPU clock:,2.194889678 GHz,,,,
+TABLE,Region MARKER_NAME,Group 1 Raw,Custom,6,
+Region Info,HWThread 0,,,,
+RDTSC Runtime [s],1.101664,,,,
+call count,1,,,,
+Event,Counter,HWThread 0,,,
+Runtime (RDTSC) [s],TSC,1.101664e+00,,,
+MEM_UOPS_RETIRED_LOADS_ALL,PMC1,587006000,,,
+MEM_LOAD_UOPS_RETIRED_L1_HIT,PMC2,72419230,,,
+INSTR_RETIRED_ANY,FIXC0,1645098000,,,
+CPU_CLK_UNHALTED_CORE,FIXC1,2395042000,,,
+CPU_CLK_UNHALTED_REF,FIXC2,2395043000,,,
+TABLE,Region MARKER_NAME,Group 1 Raw STAT,Custom,6,
+Event,Counter,Sum,Min,Max,Avg
+Runtime (RDTSC) [s] STAT,TSC,1.1017,1.1017,1.1017,1.1017
+MEM_UOPS_RETIRED_LOADS_ALL STAT,PMC1,587006000,587006000,587006000,587006000
+MEM_LOAD_UOPS_RETIRED_L1_HIT STAT,PMC2,72419230,72419230,72419230,72419230
+INSTR_RETIRED_ANY STAT,FIXC0,1645098000,1645098000,1645098000,1645098000
+CPU_CLK_UNHALTED_CORE STAT,FIXC1,2395042000,2395042000,2395042000,2395042000
+CPU_CLK_UNHALTED_REF STAT,FIXC2,2395043000,2395043000,2395043000,2395043000
